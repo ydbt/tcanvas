@@ -1,0 +1,7 @@
+.idea/
+cmake-build-debug/
+*.obj
+*.o
+*.swp
+*.swo
+

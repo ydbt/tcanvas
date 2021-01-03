@@ -22,8 +22,8 @@ typedef int   int32 ;
 typedef long long int64 ;
 
 /**
- @class: DrawI
- @brief: 图形绘画接口
+ * @class: DrawI
+ * @brief: 图形绘画接口
  */
 class DrawI {
 public:
@@ -33,9 +33,9 @@ public:
 
 
 /**
- @class: ConsoleCanvas
- @brief: 控制台字符画布背景
- @detail: 视窗为屏幕左上角，通过注册的paint接口对注册的图形进行绘画
+ * @class: ConsoleCanvas
+ * @brief: 控制台字符画布背景
+ * @detail: 视窗为屏幕左上角，通过注册的paint接口对注册的图形进行绘画
      坐标系，与正常的坐标系有点区别，注意（直线斜率有区别）
        +----------------------------> （X)
        |
